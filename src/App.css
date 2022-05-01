@@ -37,14 +37,23 @@
   }
 }
 
+.container-page {
+  position: relative;
+  min-height: 100vh;
+}
+
 .footer {
   padding: 0.75em;
   max-height: 3em;
   color: black;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 60px;
   text-align: center;
+}
+#Home, #Mission, #Skills, #Inspiration, #Contact{
+  margin: 0;
+  padding-top: 6vh;
 }
 

@@ -12,11 +12,13 @@ const Home = () => {
   return (
       <div>
         <Navbar1/>
-        <HomePage/>
-        <Mission/>
-        <Skills/>
-        <Inspiration/>
-        <Contact/>
+        <div className='container-page'>
+          <HomePage/>
+          <Mission/>
+          <Skills/>
+          <Inspiration/>
+          <Contact/>
+        </div>
         <Footer/>
       </div>
   )

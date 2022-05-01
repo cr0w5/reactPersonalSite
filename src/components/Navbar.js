@@ -13,7 +13,7 @@ const Navbar1 = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto justify-content-end" >
-                  <Nav.Link href="/Home">Home</Nav.Link>                  
+                  <Nav.Link href="/Home#Home">Home</Nav.Link>                  
                   <Nav.Link href="/Home#Mission">Mission</Nav.Link>
                   <Nav.Link href="/Home#Skills">Skills</Nav.Link>
                   <Nav.Link href="/Home#Inspiration">Inspiration</Nav.Link>
