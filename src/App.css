@@ -116,3 +116,70 @@
 #Mission img{
   max-height: 30em;
 }
+
+#Skills{
+  margin: 0;
+  padding-top: 5vh;
+}
+
+#Skills img{
+  max-height: 10em;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0;
+}
+
+#Skills .allSkills{
+  margin: 0;
+  padding: 5vh;
+  color: rgba(28,101,140, 1);
+  font-weight: bold;
+}
+
+
+#Inspiration {
+  background-color: rgba(28,101,140, 1);
+
+}
+
+#Inspiration h1{
+  margin: 0;
+  padding: 5vh;
+}
+
+.carousel-caption {
+  background: rgba(28,101,140, .5);
+}
+
+
+.carousel-item img{
+  object-fit: contain;
+  max-height: 30em;
+  overflow: hidden;
+} 
+
+#Contact{
+  margin: 0;
+  padding-top: 3vh;
+}
+
+#Contact .icon-links{
+  margin: 0;
+  padding: 3vh;
+}
+
+#Contact i {
+  font-size: 45px;
+}
+
+#Contact a {
+  color: black;
+  text-decoration: none;
+}
+
+#Contact a:hover, a:focus {
+  color: grey;
+}
