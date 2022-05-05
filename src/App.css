@@ -41,6 +41,10 @@
   position: relative;
   min-height: 100vh;
 }
+#Home, #Mission, #Skills, #Inspiration, #Contact{
+  margin: 0;
+  padding-top: 7vh;
+}
 
 .footer {
   padding: 0.75em;
@@ -52,8 +56,63 @@
   height: 60px;
   text-align: center;
 }
-#Home, #Mission, #Skills, #Inspiration, #Contact{
-  margin: 0;
-  padding-top: 6vh;
+
+/* Hero CSS */
+
+.hero-container{
+  opacity: 1;
 }
 
+.hero-overlay{
+  position: relative;
+  top: 30vh;
+}
+
+
+.hero-overlay img{
+  max-height: 20vh;
+  width: auto;
+  border: 5px solid rgba(28,101,140, 1);
+  padding: 0 0 0 0;
+  margin: 30px 0 0 0;
+  position: relative;
+  align-items: center;
+}
+
+.hero-overlay h1 {
+	position: relative;
+  font-size: 3em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  text-shadow: 2px 2px rgba(2, 5, 7, 0.787);
+  overflow: hidden;
+}
+
+.hero-overlay h2 {
+	position: relative;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 2px 2px rgba(2, 5, 7, 0.787);
+  overflow: hidden;
+}
+
+/* Mission CSS */
+
+#Mission{
+  background-color: rgba(28,101,140, 1);
+  padding: 5vh;
+}
+
+#Mission p {
+  color: white;
+}
+
+#Mission img{
+  max-height: 30em;
+}
