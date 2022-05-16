@@ -9,11 +9,11 @@ const Contact = () => {
       </div>
       <div className="row icon-links">
         <div className="col-sm-12 col-md-4 text-center">
-          <a href="https://www.linkedin.com/">
+          <a href="www.linkedin.com/in/jWongDev">
             <i className="bi bi-linkedin"></i></a>   
         </div>
         <div className="col-sm-12 col-md-4 text-center">
-          <a href="https://github.com/">
+          <a href="https://github.com/cr0w5">
             <i className="bi bi-github"></i></a>   
         </div>
         <div className="col-sm-12 col-md-4 text-center">

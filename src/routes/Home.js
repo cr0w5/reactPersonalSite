@@ -14,9 +14,7 @@ const Home = () => {
   return (
       <div>
         <Navbar1/>
-        <div className='hero-container'>
-          <Hero/>
-        </div>
+        <Hero/>
         <div className='container-page'>
           <Mission/>
           <Skills/>

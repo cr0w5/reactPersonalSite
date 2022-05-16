@@ -7,7 +7,7 @@ import '../App.css';
 const Navbar1 = () => {
   return(
     <>
-      <Navbar bg="dark" variant='dark' expand="sm" sticky='top'>
+      <Navbar bg="dark" variant="dark" expand="sm" sticky='top'>
         <Container>
             <Navbar.Brand className="justify-content-start" href="/Home">Crow</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,7 +20,6 @@ const Navbar1 = () => {
               </Nav>           
             </Navbar.Collapse> 
         </Container>                     
-
       </Navbar>
     </>
   )
